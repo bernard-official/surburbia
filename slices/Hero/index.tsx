@@ -18,7 +18,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
       data-slice-variation={slice.variation}
     >
       {/* Placeholder component for hero (variation: {slice.variation}) Slices */}
-      <div className="">
+      <div className="text-red-500 text-5xl">
 
       <PrismicRichText field={slice.primary.heading} />
       </div>
